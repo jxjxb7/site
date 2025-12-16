@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игровая Вселенная - Обзоры и новости</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта с навигацией -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>🎮 Игровая Вселенная</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#reviews">Обзоры</a></li>
+                    <li><a href="#news">Новости</a></li>
+                    <li><a href="#about">О нас</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </header>
+
+    <!-- Основное содержимое -->
+    <main class="main">
+        <!-- Герой-секция -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Добро пожаловать в мир игр!</h2>
+                    <p>Открывайте новые вселенные, находите друзей и становитесь легендами</p>
+                    <button class="cta-button">Начать путешествие</button>
+                </div>
+                <div class="hero-image">
+                    <img src="cat.png" alt="Игровая вселенная">
+                </div>
+            </div>
+        </section>
+
+        <!-- Сетка обзоров игр -->
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <h2>🎯 Последние обзоры</h2>
+                <div class="reviews-grid">
+                    <!-- Карточка игры 1 -->
+                    <article class="game-card">
+                        <div class="game-image">
+                            <img src="sddefault.jpg" alt="Minecraft">
+                            <div class="game-rating">9.5/10</div>
+                        </div>
+                        <div class="game-info">
+                            <h3>Minecraft</h3>
+                            <p>Песочница с безграничными возможностями для творчества</p>
+                            <div class="game-tags">
+                                <span class="tag sandbox">Песочница</span>
+                                <span class="tag multiplayer">Мультиплеер</span>
+                            </div>
+                            <button class="read-more">Читать обзор</button>
+                        </div>
+                    </article>
+
+                    <!-- Карточка игры 2 -->
+                    <article class="game-card">
+                        <div class="game-image">
+                            <img src="fort.jpg" alt="Fortnite">
+                            <div class="game-rating">8.7/10</div>
+                        </div>
+                        <div class="game-info">
+                            <h3>Fortnite</h3>
+                            <p>Баттл-роял с уникальным строительством и яркой графикой</p>
+                            <div class="game-tags">
+                                <span class="tag battle-royale">Баттл-роял</span>
+                                <span class="tag shooter">Шутер</span>
+                            </div>
+                            <button class="read-more">Читать обзор</button>
+                        </div>
+                    </article>
+
+                    <!-- Карточка игры 3 -->
+                    <article class="game-card">
+                        <div class="game-image">
+                            <img src="Among-Us.png" alt="Among Us">
+                            <div class="game-rating">8.9/10</div>
+                        </div>
+                        <div class="game-info">
+                            <h3>Among Us</h3>
+                            <p>Социальная игра на доверие и хитрость в космосе</p>
+                            <div class="game-tags">
+                                <span class="tag social">Социальная</span>
+                                <span class="tag multiplayer">Мультиплеер</span>
+                            </div>
+                            <button class="read-more">Читать обзор</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Боковая панель с новостями -->
+        <aside class="news-sidebar" id="news">
+            <div class="container">
+                <h2>📢 Последние новости</h2>
+                <div class="news-list">
+                    <div class="news-item">
+                        <h4>Вышло новое обновление Minecraft</h4>
+                        <span class="news-date">15.12.2024</span>
+                        <p>Добавлены новые мобы и биомы...</p>
+                    </div>
+                    <div class="news-item">
+                        <h4>Fortnite: новая глава</h4>
+                        <span class="news-date">10.12.2024</span>
+                        <p>Полностью обновлена карта и оружие...</p>
+                    </div>
+                    <div class="news-item">
+                        <h4>Among Us - новые карты</h4>
+                        <span class="news-date">05.12.2024</span>
+                        <p>Добавлено 3 новые локации для игры...</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Игровая Вселенная. Все права защищены.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">VK</a>
+                <a href="#" class="social-link">YouTube</a>
+                <a href="#" class="social-link">Telegram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
